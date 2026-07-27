@@ -10,7 +10,7 @@ const MELODY = [
 
 const NOTE_GAP = 0.04;
 const LOOP_GAP = 1.2;
-const MUSIC_VOLUME = 0.25;
+const MUSIC_VOLUME = 0.6;
 
 export default function BackgroundMusic() {
   const [muted, setMuted] = useState(false);
