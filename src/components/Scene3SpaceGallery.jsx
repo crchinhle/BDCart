@@ -5,14 +5,14 @@ import FullscreenModal from './FullscreenModal';
 
 // Danh sách ảnh nguyên chất (Đã lược bỏ hoàn toàn các dòng caption mô tả)
 const CARDS = [
-  { id: 1, filename: 'anh1.jpg', src: '/images/anh1.jpg' },
-  { id: 2, filename: 'anh2.jpg', src: '/images/anh2.jpg' },
-  { id: 3, filename: 'anh3.jpg', src: '/images/anh3.jpg' },
-  { id: 4, filename: 'anh4.jpg', src: '/images/anh4.jpg' },
-  { id: 5, filename: 'anh5.jpg', src: '/images/anh5.jpg' },
-  { id: 6, filename: 'anh6.jpg', src: '/images/anh6.jpg' },
-  { id: 7, filename: 'anh7.jpg', src: '/images/anh7.jpg' },
-  { id: 8, filename: 'anh8.jpg', src: '/images/anh8.jpg' },
+  { id: 1, filename: 'anh1.jpg', src: `${import.meta.env.BASE_URL}images/anh1.jpg` },
+  { id: 2, filename: 'anh2.jpg', src: `${import.meta.env.BASE_URL}images/anh2.jpg` },
+  { id: 3, filename: 'anh3.jpg', src: `${import.meta.env.BASE_URL}images/anh3.jpg` },
+  { id: 4, filename: 'anh4.jpg', src: `${import.meta.env.BASE_URL}images/anh4.jpg` },
+  { id: 5, filename: 'anh5.jpg', src: `${import.meta.env.BASE_URL}images/anh5.jpg` },
+  { id: 6, filename: 'anh6.jpg', src: `${import.meta.env.BASE_URL}images/anh6.jpg` },
+  { id: 7, filename: 'anh7.jpg', src: `${import.meta.env.BASE_URL}images/anh7.jpg` },
+  { id: 8, filename: 'anh8.jpg', src: `${import.meta.env.BASE_URL}images/anh8.jpg` },
 ];
 
 const N = CARDS.length;

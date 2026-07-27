@@ -20,7 +20,7 @@ const SMOOTH_EASE = [0.22, 1, 0.36, 1];
 const WISH_CHARACTER_DELAY_MS = 40;
 const WISH_CHARACTER_ANIMATION_MS = 450;
 const WISH_REVEAL_DURATION_MS = (Array.from(BIRTHDAY_WISH).length - 1) * WISH_CHARACTER_DELAY_MS + WISH_CHARACTER_ANIMATION_MS;
-const CARD_IMAGES = Array.from({ length: 8 }, (_, index) => `/images/anh${index + 1}.jpg`);
+const CARD_IMAGES = Array.from({ length: 8 }, (_, index) => `${import.meta.env.BASE_URL}images/anh${index + 1}.jpg`);
 const CAKE_DISSOLVE_DELAY_MS = 100;
 const WISH_WRITING_DELAY_MS = 3200;
 
